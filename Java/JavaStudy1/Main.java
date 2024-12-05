@@ -1,7 +1,20 @@
+import java.util.ArrayList;
+
 public class Main {
     public static void main(String[] args) {
-        Object a = new Object();
-        Object b = null;
-        System.out.println(a.equals(b));
+        ArrayList<String> list = new ArrayList<>();
+        list.add("R");
+        list.add("Y");
+        list.add("O");
+        list.add("T");
+        list.add("A");
+        for(String str : list){
+            if ("A".equals(str)){
+                list.remove(str);
+            }
+        }
+        for(String str : list){
+            System.out.println(str);
+        }
     }
 }
