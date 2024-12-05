@@ -9,7 +9,7 @@ public class Main {
         list.add("T");
         list.add("A");
         for(String str : list){
-            if ("A".equals(str)){
+            if ("R".equals(str)){
                 list.remove(str);
             }
         }
